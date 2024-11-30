@@ -26,7 +26,7 @@ public class ChatbotClient {
     private static List<Map<String, String>> chatHistory = new ArrayList<>();
 
     public static void main(String[] args) {
-        String userMessage = "二小姐我喜欢你";  // 用户输入的消息
+        String userMessage = "二小姐";  // 用户输入的消息
         try {
             String response = getChatResponse(userMessage);
             System.out.println("芙兰: " + response);
