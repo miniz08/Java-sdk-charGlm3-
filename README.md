@@ -1,12 +1,15 @@
 需要的依赖：
+```
     // OkHttp 依赖
     implementation 'com.squareup.okhttp3:okhttp:4.10.0'
 
     // Gson 依赖
     implementation 'com.google.code.gson:gson:2.9.0'
+```
 直接打开文件然后把代码粘到你的ide里,然后把依赖粘过去，更新依赖之后就能运行
 只是一个响应示例，实际运用需要结合场景
 不想打开文件直接从这里粘也可以(雾)
+```
 package org.example;
 import okhttp3.*;
 import com.google.gson.*;
@@ -89,3 +92,4 @@ public class ChatbotClient {
         }
     }
 }
+```
